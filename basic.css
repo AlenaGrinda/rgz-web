@@ -1,0 +1,103 @@
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20pt;
+    margin: 0;
+}
+
+footer{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 15px;
+    background-color: rgb(20, 61, 96);
+    color: white;
+    font-size: 15pt;
+}
+
+.box_1{
+    max-width: 100%;
+    margin: 0 auto;
+    transition: 300ms;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box_1:hover{
+    padding-top: 40px;
+    transition-duration: 500ms;
+}
+
+.nav{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.nav_link{
+    color: white;
+    text-decoration: none;
+    margin-left: 3%;
+    margin-right: 3%;
+    background: linear-gradient(150deg, rgba(51, 106, 206, 1) 0%,
+              rgba(57, 114, 213, 1) 50%, rgba(35, 90, 191, 1) 50%,
+              rgba(1, 60, 163, 1) 100%);
+    border-radius: 35px;
+    padding: 10px 30px;
+    transition: 0.3s;
+    font-size: 13pt;
+}
+
+.nav_link:hover{
+    transition-duration: 0.3s;
+    padding: 13px 33px;
+    box-shadow: 5px 5px 20px black;
+    font-size: 14pt;
+}
+
+.nav_link:active{
+    padding: 10px 30px;
+    font-size: 13pt;
+}
+
+.nav_link_open{
+    color: white;
+    text-decoration: none;
+    margin-left: 3%;
+    margin-right: 3%;
+    background: linear-gradient(150deg, rgb(216, 239, 11) 0%,
+              rgb(205, 130, 24) 50%, rgb(190, 100, 15) 50%,
+              rgb(195, 106, 4) 100%);
+    border-radius: 35px;
+    padding: 10px 30px;
+    font-size: 13pt;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.nav_link_open:hover{
+    transition-duration: 0.3s;
+    padding: 13px 33px;
+    box-shadow: 5px 5px 20px black;
+    font-size: 14pt;
+}
+
+.nav_link_open:active{
+    padding: 10px 30px;
+    font-size: 13pt;
+}
+
+.table_two{
+    margin-left: 100px;
+}
+
+.buttom{
+    margin-top: 100px;
+}

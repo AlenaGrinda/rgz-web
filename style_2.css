@@ -1,0 +1,141 @@
+.screen_1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(#253270, rgb(182, 120, 28));
+    background-size: cover;
+}
+
+.screen_2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient( rgb(182, 120, 28), white);
+    background-size: cover;  
+}
+
+.screen_3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient( white,#253270);
+    background-size: cover;  
+
+}
+
+.screen_1_title{
+    max-width: 40%;
+    max-height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.big_logo:after{
+    display: block;
+    width: 130px;
+    height: 3px;
+    background-color: white;
+    margin: 30px auto;
+}
+
+.screen_1_text{
+    font-size: 50px;
+    color: white;
+}
+
+.bt_open{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 15px;
+    background: linear-gradient(150deg, rgb(216, 239, 11) 0%,
+              rgb(205, 130, 24) 50%, rgb(190, 100, 15) 50%,
+              rgb(195, 106, 4) 100%);
+    border-radius: 10px;
+
+    font-size: 14px;
+    font-weight: 700;
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-top: 60px;
+}
+
+.bt_open:hover{
+    transition-duration: 0.3s;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    box-shadow: 5px 5px 20px black;
+}
+
+.bt_open:active{
+    transition-duration: 0.3s;
+    font-size: 13px;
+}
+
+.screen_2_title{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+}
+
+.screen_2_text{
+    font-size: 15pt;
+    text-align: center;
+    color: white;
+}
+
+.text_akciya{
+    font-size: 25pt;
+}
+
+.tables_1{
+    text-align: center;
+    padding-left: 30%;
+}
+
+.table_one{
+    margin-top: 130px;
+}
+
+table {
+    text-align: left;
+    border-spacing: 5px;
+    background: #2f54b0;
+    color: white;
+    border: 16px solid #2f54b0;
+    border-radius: 20px;
+    text-align: center;
+}
+
+th {
+    font-size: 18px;
+    padding: 10px;
+}
+
+td {
+    background: #2a2e72;
+    padding: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+td:hover{
+    background-color: #1e4473;
+    transition-duration: 0.3s;
+}
+
+.screen_3_title{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+}

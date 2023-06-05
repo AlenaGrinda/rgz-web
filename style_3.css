@@ -1,0 +1,52 @@
+.screen_1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(backgraund_5.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.screen_1_title{
+    width: 95%;
+    height: 85%;
+    text-align: center;
+    margin: 0 auto;
+    display: block; 
+}
+
+.screen_1_text{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    color: white;
+}
+
+.map{
+    border-radius: 30px;
+}
+
+.phone{
+    font-size: 25pt;
+    color: white;
+}
+
+.number{
+    color: white;
+    text-decoration: none;
+    font-size: 20pt;
+    transition: 0.3s;
+}
+
+.number:hover{
+    color: rgb(32, 49, 181);
+    font-size: 21pt;
+    transition-duration: 0.3s;
+}
+
+.number:active{
+    color: rgb(16, 33, 107);
+    font-size: 20pt;
+    transition-duration: 0.3s;
+}
